@@ -13,6 +13,7 @@ dom：域，似乎用不着，以option封装在 CasbinVals里
 g： 相当于父类，比如各个用户id a,b,c可以通过g a admin 使得a可以进行admin的策略。
 # 连接数据库
 模型配置是一个简单的，存本地。策略可以存在数据库
+<https://lib.rs/crates/diesel-adapter>
 # 策略设计
 因为这个是比较后面的内容，等网关接口补齐才好设计
 # 问题
